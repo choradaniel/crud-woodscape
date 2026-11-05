@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CRUD - Gestor de Tareas Woodscape</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- Sección Header (Requisito UI) -->
+    <header>
+        <h1>Gestor Operativo Woodscape</h1>
+    </header>
+
+    <main class="container">
+        <!-- Sección para crear elementos (Create) -->
+        <div class="input-section">
+            <input type="text" id="taskInput" placeholder="Nueva tarea (ej. Revisar inventario de domos)">
+            <button id="addBtn">AGREGAR</button>
+        </div>
+
+        <!-- Sección para ver todos los elementos (Read) -->
+        <div class="list-section">
+            <ul id="taskList">
+                <!-- Los elementos se generarán aquí con JavaScript -->
+            </ul>
+        </div>
+    </main>
+
+    <!-- Footer (Requisito UI) -->
+    <footer>
+        <p>&copy; 2026 Operadora Woodscape S.A. de C.V.</p>
+    </footer>
+
+    <!-- Conexión con JavaScript -->
+    <script src="app.js"></script>
+</body>
+</html>
